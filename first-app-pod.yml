@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: golang-sample-pod
+  labels:
+    app: golang-sample
+spec:
+  containers:
+  - name: k8s-demo
+    image: tiagotele/golangsample:2.0
+    ports:
+    - name: go-app-portt
+      containerPort: 8080
+
