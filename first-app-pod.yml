@@ -9,6 +9,6 @@ spec:
   - name: k8s-demo
     image: tiagotele/golangsample:2.0
     ports:
-    - name: go-app-portt
+    - name: go-sample-port
       containerPort: 8080
 
